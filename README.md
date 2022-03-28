@@ -15,3 +15,8 @@ tsc -w
 
 tsconfig.json > shell > 默认项
 
+
+// ts能做的转换仅仅是：语言糖层面的转换，有些新语法并不能实现，babel可以，其是模拟实现
+// npm i -D @babel/core @babel/preset-env babel-loader core-js
+// core-js提供js环境，老版本浏览器js在该环境下运行来实现好点的兼容性
+
