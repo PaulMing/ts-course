@@ -8,3 +8,10 @@
 面向对象编程
 编译成目标js代码[es3,es5,es6等]、有错误是否可提交[默认是可提交的]
 
+
+tsconfig.json -> 这里的json可以写注释，其它json并不能写
+tsc
+tsc -w
+
+tsconfig.json > shell > 默认项
+
