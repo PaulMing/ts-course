@@ -18,7 +18,7 @@
   ],
   // 编译器选项
   "compilerOptions": {
-    // 编译后的目标代码es版本: "ES3", "ES5", "ES6", "ES2015", "ES2016", "ES2017", "ES2018", "ES2019", "ES2020", "ES2021", "ES2022", "ESNext"
+    // 编译后的目标代码es版本: "ES3", "ES5", "ES6", "ES2015", "ES2016", "ES2017", "ES2018", "ES2019", "ES2020", "ES2021", "ES2022", "ESNext" -> 其能编译处理'语法糖'层面的改动，并不能处理新语法[例如promise]，因此兼容低版本浏览器依旧需要借助babel[babel默认也是不处理新语法的，但可添加预设，预设提供polyfill底层模拟实现新语法，例如经常使用的core-js，其会提供部分js执行环境，老版本浏览器不兼容的js可在该环境下运行来实现兼容]
     "target": "ES2020",
     // 支持的模块化标准: "CommonJS", "AMD", "System", "UMD", "ES6", "ES2015", "ES2020", "ESNext", "None", "ES2022", "Node12", "NodeNext"
     "module": "ES6", 
