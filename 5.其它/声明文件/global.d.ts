@@ -1,13 +1,13 @@
 // 全局声明
-declare var console:{
-  log(message?:any):void
-}
+// declare var console:{
+//   log(message?:any):void
+// }
 
 // 命名空间 -> 实际就是模块化
-declare namespace console {
-  function log(message?: any):void
-  function error(message?: any):void
-}
+// declare namespace console {
+//   function log(message?: any):void
+//   function error(message?: any):void
+// }
 
 // 声明模块
 declare module 'lodash' {
