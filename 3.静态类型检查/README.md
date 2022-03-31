@@ -7,4 +7,4 @@
 
 ### 静态类型
 > 基本类型：number、string、boolean、undefined、null、对象、数组、函数、void、never、元祖tuple、字面量、any、unknown、联合类型 -> js基本类型+js基本类型上扩展的类型
-> 扩展类型：类型别名、枚举、接口、类、泛型
+> 扩展类型：类型别名、枚举、接口、泛型
